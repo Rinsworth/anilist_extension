@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "CCHA Anilist Tomfoolery",
+  "version": "1.0",
+  "description": "Random stuff for Anilist",
+  "permissions": ["activeTab", "https://anilist.co/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://anilist.co/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
